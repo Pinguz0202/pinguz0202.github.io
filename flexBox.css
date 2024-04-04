@@ -1,0 +1,53 @@
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo { /*Alinear al lado del logo*/
+    display: flex;
+    align-items: center;
+}
+
+.logo img { /* Imagen */
+    width: 50px;
+    margin-right: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.inicio {
+    text-align: center;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: 20px;
+    max-width: calc(100% - 40px);
+}
+
+.inicio h1, .inicio h2 {
+    display: inline-block;
+    margin-right: -20px;
+}
+
+
+.botones {
+    margin-top: 20px;
+}
+
+.dudas,
+.info {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
